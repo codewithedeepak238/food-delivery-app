@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.underline_text::after{
+    content: "";
+    background-color: #ffcc00;
+    position: absolute;
+    height: 3px;
+    width: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -25px;
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.grid-box2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.dealCard{
+    box-shadow: -6px -6px 13px -9px rgba(0,0,0,0.39);
+}
